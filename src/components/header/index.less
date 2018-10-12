@@ -10,14 +10,28 @@
     .second{
         height:40px;
         line-height:40px;
+      
         .left .crumb{
             margin-left:50px;
             font-size:20px;
+           
+           
+            &::after{
+                    content:'';
+                    display:block;
+                   
+                    border:20px solid transparent ;
+                    border-top:20px solid #fff;
+                    width:0;
+                    height:0;
+          
+                }  
           
         }
         .right .text{
             font-size:16px;
             font-weight:lighter;
+            margin-right:10px;
         }
     }
     
